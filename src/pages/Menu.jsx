@@ -12,10 +12,6 @@ const Menu = () => {
   const [category,setCategory] = useState([]);
   const [subCategory,setSubCategory] = useState([]);
   const [sortType,setSortType] = useState("relavent");
-
-  useEffect (()=>{
-    preventDefault();
-  },[])
   
 
   const toggleCategory = (e) =>{
