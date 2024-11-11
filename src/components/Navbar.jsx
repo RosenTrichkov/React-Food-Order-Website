@@ -14,10 +14,10 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between py-2 font-medium">
-        <Link to={"/"}><img src={assets.logo} className="w-28" alt=""/></Link>
+        <Link to={"/React-Food-Order-Website"}><img src={assets.logo} className="w-28" alt=""/></Link>
         
         <ul className="hidden sm:flex gap-5 text-base text-amber-950">
-          <NavLink to="/" className="flex flex-col items-center gap-1">
+          <NavLink to="/React-Food-Order-Website" className="flex flex-col items-center gap-1">
               <p>HOME</p>
               <hr className="w-2/4 border-none h-[1.6px] bg-[#866042] hidden" />
           </NavLink>
@@ -63,7 +63,7 @@ const Navbar = () => {
               <img className="h-5 rotate-90" src={assets.dropdown_icon} alt="" />
               <p>Back</p>
           </div>
-          <Link to={"/"}> <p onClick={(e)=>{setVisible(false); setSelected("home")}} className={`py-2 pl-6  border-amber-950 border-t-[2px] text-${selected === "home"? "white" : ""} bg-${selected === "home"? "red-900" : "" }`}>HOME</p></Link>
+          <Link to={"/React-Food-Order-Website"}> <p onClick={(e)=>{setVisible(false); setSelected("home")}} className={`py-2 pl-6  border-amber-950 border-t-[2px] text-${selected === "home"? "white" : ""} bg-${selected === "home"? "red-900" : "" }`}>HOME</p></Link>
           <Link to={"/menu"}> <p onClick={()=>{setVisible(false); setSelected("menu")}} className={`py-2 pl-6  border-amber-950 border-t-[2px] text-${selected === "menu"? "white" : ""} bg-${selected === "menu"? "red-900" : "" }`}> MENU</p></Link>
           <Link to={"/about"}> <p onClick={()=>{setVisible(false); setSelected("about")}} className={`py-2 pl-6  border-amber-950 border-t-[2px] text-${selected === "about"? "white" : ""} bg-${selected === "about"? "red-900" : "" }`} >ABOUT </p></Link>
           <Link to={"/contact"}> <p onClick={()=>{setVisible(false); setSelected("contact")}} className={`py-2 pl-6  border-amber-950 border-b-[2px] border-t-[2px] text-${selected === "contact"? "white" : ""} bg-${selected === "contact"? "red-900" : "" }`} >CONTACT </p></Link>
