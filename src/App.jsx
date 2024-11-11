@@ -22,7 +22,7 @@ const App = () => {
       <Navbar />
       <SearchBar />
       <Routes>
-        <Route path="/React-Food-Order-Website" element={<Home/>}/>
+        <Route path="/React-Food-Order-Website/" element={<Home/>}/>
         <Route path="/menu" element={<Menu/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>

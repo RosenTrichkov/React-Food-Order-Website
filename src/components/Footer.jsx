@@ -19,7 +19,7 @@ const year = date.getFullYear();
             <div>
                 <p className="text-xl font-medium mb-3 lg:mb-5 text-amber-950">COMPANY</p>
                 <ul className="flex flex-col gap-1 text-amber-900 cursor-pointer">
-                    <Link to={"/React-Food-Order-Website"} onClick={()=> window.scrollTo(0,0)}><li>Home</li></Link>
+                    <Link to={"/React-Food-Order-Website/"} onClick={()=> window.scrollTo(0,0)}><li>Home</li></Link>
                     <Link to={"/about"} onClick={()=> window.scrollTo(0,0)}><li>About Us</li></Link>
                     <li>Privacy Policy</li>
                 </ul>
